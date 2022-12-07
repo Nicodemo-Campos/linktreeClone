@@ -116,20 +116,22 @@ header {
 @media (min-width: 320px) {
     .container {
         grid-template-columns: 320px;
+        grid-auto-rows: 80px;
     }
     a.tile {
         width: 320px;
-        height: auto;
+        height: 120px;
     }
 }
 
 @media (min-width: 425px) {
     .container {
         grid-template-columns: 380px;
+        grid-auto-rows: 70px;
     }
     a.tile {
-        width: 380px;
-        height: auto;
+        width: auto;
+        height: 70px;
     }
 }
 
